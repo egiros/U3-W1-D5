@@ -3,7 +3,7 @@ import { Button, ButtonGroup, Col, Dropdown, DropdownButton, Row } from "react-b
 const TopBar = () => {
   return (
     <div className="container-fluid d-flex justify-content-between bg-body" bg="dark" data-bs-theme="dark">
-      <div className="d-flex align-intems-center text-white my-2">
+      <div className="d-flex align-items-center text-white my-2">
         <h1>Movies</h1>
         <div className=" mx-3">
           <ButtonGroup>

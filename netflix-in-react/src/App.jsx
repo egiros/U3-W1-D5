@@ -11,9 +11,14 @@ function App() {
     <div className="App bg-dark">
       <MyNavbar></MyNavbar>
       <TopBar></TopBar>
-      <MovieGallery category="Harry Potter" apiEndpoint="" />
-      <MovieGallery category="Lord of the Rings" apiEndpoint="" />
-      <MovieGallery category="Batman" apiEndpoint="" />
+      <MovieGallery category="Transformers" />
+      <MovieGallery category="Harry Potter" />
+      <MovieGallery category="Lord of the Rings" />
+      <MovieGallery category="Batman" />
+      <MovieGallery category="Superman" />
+      <MovieGallery category="Avengers" />
+      <MovieGallery category="Game of Thrones" />
+      <MovieGallery category="Spiderman" />
       <MyFooter></MyFooter>
     </div>
   );

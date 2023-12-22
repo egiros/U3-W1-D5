@@ -21,10 +21,10 @@ const MovieGallery = ({ category }) => {
   }, [category, apiKey]);
 
   return (
-    <div className="bg-dark text-white">
+    <div className="bg-dark text-white mb-5">
       <h2>{category}</h2>
-      <div className="movie-gallery mt-2 mb-3">
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 text-center">
+      <div className="container-fluid mt-2 mb-3">
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 g-2 text-center">
           {movies.map((movie) => (
             <MovieCard key={movie.imdbID} movie={movie} />
           ))}

@@ -1,12 +1,15 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 const MovieCard = ({ movie }) => {
   return (
     <Col>
-      <img className="img-fluid" src={movie.Poster} alt={movie.Title} />
-      <h3>{movie.Title}</h3>
-      <p>{movie.Year}</p>
+      <img
+        style={{ height: "350px", objectFit: "cover" }}
+        className="img-fluid rounded-2 shadow"
+        src={movie.Poster}
+        alt={movie.Title}
+      />
     </Col>
   );
 };
